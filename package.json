@@ -1,0 +1,24 @@
+{
+  "name": "assigment1",
+  "version": "1.0.0",
+  "description": "Assigment 1",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "SET NODE_ENV=local && nodemon app.js",
+    "test": "SET NODE_ENV=test && nodemon app.js",
+    "devstart": "nodemon app.js"
+  },
+  "author": "Vlad and Dor",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
